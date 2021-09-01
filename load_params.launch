@@ -1,5 +1,5 @@
 <launch>
-    <node name="masternode" pkg="beginner_tutorials" type="ros_onboarding">
+    <node name="masternode" pkg="beginner_tutorials" type="ros_onboarding" output="screen">
         <rosparam param="frequency_to_loop"> 3 </rosparam>
     </node>
 </launch>
