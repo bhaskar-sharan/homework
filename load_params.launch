@@ -1,3 +1,5 @@
 <launch>
-    <rosparam param="frequency">5</rosparam>
+    <node name="masternode" pkg="beginner_tutorials" type="ros_onboarding">
+        <rosparam param="frequency_to_loop"> 3 </rosparam>
+    </node>
 </launch>
